@@ -1,19 +1,19 @@
 <img width="767" alt="thumbnail" src="https://user-images.githubusercontent.com/77754518/137814851-3e575c28-6783-4956-ad27-06754e840a0d.PNG">
 
-# CS 428 Project 2
+# CS 428 Project 3
 
 > _This has been tested on version 2019.4.28f1 of the Unity software_
 
 
 ## Introduction
 
-This project is to depict a phobia and help the user over coming their fear using the Oculus Quest and Unity. The phobia I chose to represent is Ludophobia or the fear of games. Because of the recent success of the show Squid Game, I decided to build the office like the show. The show had many games that included red light green light, marbles, and tug of war. The fun colors and music of the office is to put the player at ease. The office even has some presents on display for the user who overcomes their fear! This project is a VR game using the components from the VRTK suite within the [Unity] software.
+This project builds off of Project 2 where there are 3 different  This project is a VR game using the components from the VRTK suite within the [Unity] software.
 
 ### Downloading the project
 
 * Download this project repository to your local machine using *one* of the following methods:
-  * Git clone the repository with `git clone https://github.com/BanhAnna/CS428Project2`
-  * Download the zip file at `https://github.com/BanhAnna/CS428Project2` and extract it.
+  * Git clone the repository with `git clone https://github.com/BanhAnna/CS428Project3a`
+  * Download the zip file at `https://github.com/BanhAnna/CS428Project3a` and extract it.
 
 ### Opening the downloaded project in the Unity software
 
@@ -25,15 +25,17 @@ This project is to depict a phobia and help the user over coming their fear usin
 * Click the `Add` Button.
 * Browse to the local directory where the repository was cloned/downloaded to and click `Select Folder`.
 
-### Running the game scene
+### Running the game scene on PC
 
-* Open the `Assets/Scenes/ScarecoOffices` scene.
+* Open the `Assets/Scenes/megoPlayset` scene.
+* Make sure CameraRigs.SpatialSimulator enabled and CameraRigs.UnityXR disabled
 * Enable `Maximize On Play` in the Unity Game view control bar to ensure no performance issues are caused by the Unity Editor overhead.
 * Play the scene in the Unity Editor (`CTRL` + `P`).
-* The scene should automatically play within any Unity supported XR hardware.
 
-### Commits/Pushes
-* 10.16.21 - 8pm: Project is initally pushed
-* 10.18.21 - 12pm: An attempt to fix the missing prefabs was made by pulling and then pushing back to github referencing piazza post @46
-* 10.18.21 - 5pm: An edit was made to the packages file to add in the missing prefabs. This fixed the problem!
+### Running the game scene on VR Headset
+* Make sure CameraRigs.UnityXR enabled and CameraRigs.SpatialSimulator disabled
+* Go to build settings and make sure it's building to android
+* Plug in VR headset to laptop and make quest accept laptop connection
+* Build and Run
+
 
