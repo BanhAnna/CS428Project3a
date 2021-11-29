@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/ScareCoOffices.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/megoPlayset.unity
+    guid: e16f8b69416a037418fb49b8171b4bba
+  - enabled: 1
+    path: Assets/Scenes/landOfGiants.unity
+    guid: 7ae861806e4922448a6942e7e8f64683
+  - enabled: 1
+    path: Assets/Scenes/dancingOnCeiling.unity
+    guid: 7045f83400288dd4a9473b4b90c2f575
+  - enabled: 1
+    path: Assets/Scenes/original.unity
+    guid: 8fc7d48113d1d1c4ab7673310d353254
+  - enabled: 1
+    path: Assets/Scenes/dancingOnCeiling1.unity
+    guid: e93d422798fa9a44b8b5bbe90e36f1ca
+  - enabled: 1
+    path: Assets/Scenes/dancingOnCeiling2.unity
+    guid: b89390853de0c3b4a9b50cc62c1052b1
+  - enabled: 1
+    path: Assets/Scenes/dancingOnCeiling3.unity
+    guid: d142db6880bd9eb4ab8c1f6ce72e9960
+  m_configObjects: {}
