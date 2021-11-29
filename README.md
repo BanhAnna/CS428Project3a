@@ -1,34 +1,19 @@
-[![VRTK logo][VRTK-Image]](#)
+<img width="767" alt="thumbnail" src="https://user-images.githubusercontent.com/77754518/137814851-3e575c28-6783-4956-ad27-06754e840a0d.PNG">
 
-# VR Bowling Game Tutorial
+# CS 428 Project 2
 
 > _This has been tested on version 2019.4.28f1 of the Unity software_
 
-[![License][License-Badge]][License]
-[![Backlog][Backlog-Badge]][Backlog]
-[![Discord][Discord-Badge]][Discord]
-[![Videos][Videos-Badge]][Videos]
-[![Twitter][Twitter-Badge]][Twitter]
 
 ## Introduction
 
-A tutorial on how to make a VR Bowling game using the components from the VRTK suite within the [Unity] software.
-
-This tutorial covers the basics of getting a VR camera working within Unity and being able to interact with objects within the scene.
-
-> If you're using Unity 2020.1 or above then please refer to the [Converting To Unity 2020] tutorial.
-
-![VR Bowling Scene](https://user-images.githubusercontent.com/36199993/74746663-af050780-525d-11ea-8eb0-6ba279fed0f7.gif)
-
-## Getting Started
-
-Follow the [Making A VR Bowling Game] tutorial to build this project yourself in an empty Unity project or follow the instructions below to download the completed project.
+This project is to depict a phobia and help the user over coming their fear using the Oculus Quest and Unity. The phobia I chose to represent is Ludophobia or the fear of games. Because of the recent success of the show Squid Game, I decided to build the office like the show. The show had many games that included red light green light, marbles, and tug of war. The fun colors and music of the office is to put the player at ease. The office even has some presents on display for the user who overcomes their fear! This project is a VR game using the components from the VRTK suite within the [Unity] software.
 
 ### Downloading the project
 
 * Download this project repository to your local machine using *one* of the following methods:
-  * Git clone the repository with `git clone https://github.com/ExtendRealityLtd/VRTK.Tutortials.VRBowling.git`
-  * Download the zip file at `https://github.com/ExtendRealityLtd/VRTK.Tutortials.VRBowling/archive/master.zip` and extract it.
+  * Git clone the repository with `git clone https://github.com/BanhAnna/CS428Project2`
+  * Download the zip file at `https://github.com/BanhAnna/CS428Project2` and extract it.
 
 ### Opening the downloaded project in the Unity software
 
@@ -39,51 +24,16 @@ Follow the [Making A VR Bowling Game] tutorial to build this project yourself in
 * Open the [Unity Hub] panel.
 * Click the `Add` Button.
 * Browse to the local directory where the repository was cloned/downloaded to and click `Select Folder`.
-* The tutorial project will now show up in the Unity Hub project window, so select `VRTK.Tutortials.VRBowling` to open the project in the Unity software.
-* The `VRTK.Tutortials.VRBowling` project will now open within the Unity software.
-
-#### Opening from within the Unity software
-
-* Select `Main Menu -> File -> Open Project` within the Unity software.
-* Browse to the local directory where the repository was cloned/downloaded to and click `Select Folder`.
-* The `VRTK.Tutortials.VRBowling` project will now open within the Unity software.
 
 ### Running the game scene
 
-* Open the `Assets/Scenes/BowlingAlley` scene.
+* Open the `Assets/Scenes/ScarecoOffices` scene.
 * Enable `Maximize On Play` in the Unity Game view control bar to ensure no performance issues are caused by the Unity Editor overhead.
 * Play the scene in the Unity Editor (`CTRL` + `P`).
 * The scene should automatically play within any Unity supported XR hardware.
 
-## Contributing
+### Commits/Pushes
+* 10.16.21 - 8pm: Project is initally pushed
+* 10.18.21 - 12pm: An attempt to fix the missing prefabs was made by pulling and then pushing back to github referencing piazza post @46
+* 10.18.21 - 5pm: An edit was made to the packages file to add in the missing prefabs. This fixed the problem!
 
-We're not currently in a place where accepting contributions would be helpful. But as soon as we're ready we'll let you know!
-
-## License
-
-Code released under the [MIT License][License].
-
-## Disclaimer
-
-These materials are not sponsored by or affiliated with Unity Technologies or its affiliates. "Unity" is a trademark or registered trademark of Unity Technologies or its affiliates in the U.S. and elsewhere.
-
-[VRTK-Image]: https://raw.githubusercontent.com/ExtendRealityLtd/related-media/main/github/readme/vrtk.png
-[Unity]: https://unity3d.com/
-[Converting To Unity 2020]: Documentation/Tutorials/ConvertingToUnity2020/README.md
-[Making A VR Bowling Game]: Documentation/Tutorials/MakingAVRBowlingGame/README.md
-
-[License-Badge]: https://img.shields.io/github/license/ExtendRealityLtd/VRTK.svg
-[Backlog-Badge]: https://img.shields.io/badge/project-backlog-78bdf2.svg
-
-[Discord-Badge]: https://img.shields.io/badge/discord--7289DA.svg?style=social&logo=discord
-[Videos-Badge]: https://img.shields.io/badge/youtube--e52d27.svg?style=social&logo=youtube
-[Twitter-Badge]: https://img.shields.io/badge/twitter--219eeb.svg?style=social&logo=twitter
-
-[License]: LICENSE.md
-[Backlog]: http://tracker.vrtk.io
-
-[Discord]: https://discord.com/invite/bRNS6hr
-[Videos]: http://videos.vrtk.io
-[Twitter]: https://twitter.com/VR_Toolkit
-
-[Unity Hub]: https://docs.unity3d.com/Manual/GettingStartedUnityHub.html
