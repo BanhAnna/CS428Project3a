@@ -7,7 +7,12 @@
 
 ## Introduction
 
-This project builds off of Project 2 where there are 3 different  This project is a VR game using the components from the VRTK suite within the [Unity] software.
+This project builds off of Project 2 where there are 3 different versions:
+ - Mego Playset - which shrinks down project 2 and lets the user play with it like a dollhouse
+ - Land of the Giants - which makes the user explore a bigger room and climb on different things
+ - Dancing on the Ceiling which allows the user to rotate the room 90 degrees at a time
+ - There is also a menu that allows the user to hop between different versions
+ - This project is a VR game using the components from the VRTK suite within the [Unity] software.
 
 ### Downloading the project
 
